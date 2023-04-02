@@ -43,24 +43,33 @@
     <h1>Tabele</h1>
 
     <table>
-        <tr>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-        </tr>
-        <tr>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-        </tr>
-        <tr>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-            <td>test</td>
-        </tr>
+        <caption>Pogoda w miastach</caption>
+        <thead>
+            <tr>
+                <th>Miasta</th>
+                <th>Temperatura</th>
+                <th>Cisnienie</th>
+                <th>Opady</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Szczecin</td>
+                <td>12</td>
+                <td>1000</td>
+                <td rowspan="2">89</td>
+            </tr>
+            <tr>
+                <td>Białystok</td>
+                <td>8</td>
+                <td>1010</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Razem: 31321</td>
+            </tr>
+        </tfoot>
     </table>
 
 </body>
