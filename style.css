@@ -1,0 +1,20 @@
+tr {
+    background-color: chartreuse;
+}
+
+p {
+    color:blue;
+}
+
+tbody tr > td {
+    background-color: red;
+}
+
+td + td {
+    color: white;
+}
+
+h1 ~ p {
+    background-color: brown;
+}
+
