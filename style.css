@@ -18,3 +18,40 @@ h1 ~ p {
     background-color: brown;
 }
 
+h1[class="naglowekTabela"] {
+    background-color: red;
+}
+
+/*h1.naglowekTabela.test {
+   background-color: red;
+}*/
+
+/*h1.naglowekTabela#pop {
+
+}
+*/
+
+/*#pop {
+
+}*/
+
+td[colspan="4"] {
+    background-color: yellow;
+}
+
+td[rowspan] {
+    background-color: yellow;
+}
+
+h1[id="pop"] {
+    background-color: green;
+}
+
+/*h1#pop {
+
+}*/
+
+/*#pop {
+    background-color: violet;
+}*/
+
