@@ -1,0 +1,23 @@
+.tylul {
+    font-size: 18pt;
+    color: red;
+}
+
+.tresc {
+    font-size: 12pt;
+    color: rgb(55, 0, 0);
+    font-style: italic;
+}
+
+.tresc.normalny , .tytul.normalny {
+    font-weight: normal;
+    font-style: normal;
+}
+
+.pogrubiony {
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+}
