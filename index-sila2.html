@@ -32,7 +32,59 @@
     
     <article class="artykul">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consectetur nam. Cum, est! Obcaecati unde nemo, consequuntur, cumque aspernatur perspiciatis eligendi assumenda nam adipisci commodi autem rem ducimus explicabo deserunt.
+    
+    <h1>Formularz</h1>
+
+    <form class="forma" method="post" action="index2.html">
+
+        <label for="e1">Imię</label>
+        <input id="e1" type="text" maxlength="5" value="Hubert" name="imie" placeholder="podaj swoje imie">
+        <label for="e2">Hasło</label>
+        <input id="e2" type="password" name="haslo">
+
+        <div>Poczęstunek</div>
+        <fieldset>
+            <label for="e3">kawa</label>
+            <input id="e3" type="checkbox" name="k" checked>
+            <label for="e4">herbata</label>
+            <input id="e4" type="checkbox" name="h" checked>
+            <label for="e5">cola</label>
+            <input id="cola" type="checkbox" name="c">
+        </fieldset>
+
+        <input type="radio" name="plec" value="k" checked>
+        <input type="radio" name="plec" value="m">
+        <input type="radio" name="plec" value="x">
+        <input type="radio" name="cukier" value="z">
+        <input type="radio" name="cukier" value="b" checked>
+
+        <input type="submit" name="wyslanie" value="Wyslij">
+        <textarea name="komentarz" cols="20" rows="10">
+            Mój tekst komentarza
+        </textarea>
+        <select name="dzieci" size="3" multiple>
+            <option value="0">Brak</option>
+            <option value="1do3">Od 1 do 3 włacznie</option>
+            <option value="3do5">od 3 do 5</option>
+            <option value="ponad5" selected>6 i wiecej</option>
+            <option value="0">Brak</option>
+            <option value="1do3">Od 1 do 3 włacznie</option>
+            <option value="3do5">od 3 do 5</option>
+            <option value="ponad5" selected>6 i wiecej</option>
+        </select>
+        <input type="hidden" name="tajne" value="bardzo tajna wartosc">
+
+        <input type="button" name="button1" value="Przycisk">
+        <input type="reset" name="reset" value="reset">
+
+        <input type="range" name="zasieg">
+
+    </form>
+
+
     </article>
+
+
 
 </div>
 

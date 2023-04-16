@@ -20,6 +20,11 @@
     display: grid;
 }
 
+.forma {
+    display: grid;
+    grid-template-columns: [lewa] 100px [srodek] auto [prawa];
+}
+
 .menu {
     grid-column: srodek / prawa;
     grid-row: srodek / dol;
@@ -50,6 +55,12 @@
 
 * {
     box-sizing: border-box;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
 .kafel__dzial {
