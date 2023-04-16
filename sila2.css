@@ -81,6 +81,20 @@ fieldset {
     grid-column: srodek / prawa;
 }
 
+.polewej {
+    grid-column: lewa / srodek;
+}
+
+.powiekszony {
+    font-size: 20px;
+    color: red;
+}
+
+.pomniejszony {
+    font-size: 10px;
+    color: rgb(0, 255, 55);
+}
+
 .kafel__dzial {
     background-color: violet;
     color: white;
