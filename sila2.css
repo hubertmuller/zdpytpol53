@@ -17,6 +17,7 @@
     grid-column: lewa / srodek;
     grid-row: srodek / dol;
     grid-template-columns: [lewa] 20px [srodek-lewa] auto [srodek-prawa] 20px [prawa];
+    display: grid;
 }
 
 .menu {
@@ -32,6 +33,10 @@
     background-color: black;
     color: white;
     padding: 10px;
+}
+
+.artykul {
+    grid-column: srodek-lewa / srodek-prawa;
 }
 
 .tresc.normalny , .tytul.normalny {
