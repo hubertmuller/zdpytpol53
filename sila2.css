@@ -1,12 +1,37 @@
-.tylul {
+.tytul {
     font-size: 18pt;
-    color: red;
+    color: rgb(255, 255, 255);
+    background-color: cadetblue;
+    grid-column: lewa / prawa;
+    grid-row: gora / srodek;
+    margin: 0;
+    padding: 10px;
 }
 
 .tresc {
     font-size: 12pt;
     color: rgb(55, 0, 0);
     font-style: italic;
+    padding: 10px;
+    background-color: bisque;
+    grid-column: lewa / srodek;
+    grid-row: srodek / dol;
+    grid-template-columns: [lewa] 20px [srodek-lewa] auto [srodek-prawa] 20px [prawa];
+}
+
+.menu {
+    grid-column: srodek / prawa;
+    grid-row: srodek / dol;
+    background-color: darkgray;
+    padding: 10px;
+}
+
+.stopka {
+    grid-row: dol / dol-koniec;
+    grid-column: lewa / prawa;
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
 
 .tresc.normalny , .tytul.normalny {
@@ -80,4 +105,6 @@
 
 .siatka {
     display: grid;
+    grid-template-columns: [lewa] auto [srodek] 200px [prawa];
+    grid-template-rows: [gora] 150px [srodek] auto [dol] 50px [dol-koniec];
 }
