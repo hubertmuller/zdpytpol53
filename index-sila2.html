@@ -11,17 +11,7 @@
   
     
 <!--   
-<div class="kafel">
-    <div class="kafel__dzial">QUIZ</div>
-    <a href="" class="link">
-        Tytul artykułu dwuliniowy długi przykładowy
-    </a>
-</div><div class="kafel kafel--maly">
-    <div class="kafel__dzial kafel__dzial--prawogora">QUIZ</div>
-    <a href="" class="link">
-        Tytul artykułu dwuliniowy długi przykładowy
-    </a>
-</div>
+
 --> 
 
 
@@ -30,6 +20,84 @@
 
 <div class="tresc normalny">
     
+    <div class="kafle">
+
+        <div class="kafel">
+            <div class="kafel__dzial">QUIZ</div>
+            <a href="" class="link">
+                Tytul artykułu dwuliniowy długi przykładowy
+            </a>
+        </div>
+        
+        
+        <div class="kafel">
+            <div class="kafel__dzial">QUIZ</div>
+            <a href="" class="link">
+                Tytul artykułu dwuliniowy długi przykładowy
+            </a>
+        </div>
+
+        
+        <div class="kafel">
+            <div class="kafel__dzial">QUIZ</div>
+            <a href="" class="link">
+                Tytul artykułu dwuliniowy długi przykładowy
+            </a>
+        </div>
+
+        
+        <div class="kafel">
+            <div class="kafel__dzial">QUIZ</div>
+            <a href="" class="link">
+                Tytul artykułu dwuliniowy długi przykładowy
+            </a>
+        </div>
+        
+        
+
+
+    </div>
+
+    <div class="kafle mini-kafle">
+    
+        <div class="kafel kafel--maly">
+            <div class="kafel__dzial kafel__dzial--prawogora">QUIZ</div>
+            <a href="" class="link">
+                Tytul artykułu dwuliniowy długi przykładowy
+            </a>
+        </div>
+
+        <div class="kafel kafel--maly">
+            <div class="kafel__dzial kafel__dzial--prawogora">QUIZ</div>
+            <a href="" class="link">
+                Tytul artykułu dwuliniowy długi przykładowy
+            </a>
+        </div>
+
+        <div class="kafel kafel--maly">
+            <div class="kafel__dzial kafel__dzial--prawogora">QUIZ</div>
+            <a href="" class="link">
+                Tytul artykułu dwuliniowy długi przykładowy
+            </a>
+        </div>
+
+        <div class="kafel kafel--maly">
+            <div class="kafel__dzial kafel__dzial--prawogora">QUIZ</div>
+            <a href="" class="link">
+                Tytul artykułu dwuliniowy długi przykładowy
+            </a>
+        </div>
+
+        <div class="kafel kafel--maly">
+            <div class="kafel__dzial kafel__dzial--prawogora">QUIZ</div>
+            <a href="" class="link">
+                Tytul artykułu dwuliniowy długi przykładowy
+            </a>
+        </div>
+    
+    </div>
+
+
     <article class="artykul">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, consectetur nam. Cum, est! Obcaecati unde nemo, consequuntur, cumque aspernatur perspiciatis eligendi assumenda nam adipisci commodi autem rem ducimus explicabo deserunt.
     
@@ -49,20 +117,24 @@
             <label for="e4">herbata</label>
             <input id="e4" type="checkbox" name="h" checked>
             <label for="e5">cola</label>
-            <input id="cola" type="checkbox" name="c">
+            <input id="e5" type="checkbox" name="c">
         </fieldset>
 
-        <input type="radio" name="plec" value="k" checked>
-        <input type="radio" name="plec" value="m">
-        <input type="radio" name="plec" value="x">
-        <input type="radio" name="cukier" value="z">
-        <input type="radio" name="cukier" value="b" checked>
+        <div>Plec</div>
+        <fieldset>
+            <label for="e6">kobieta</label>
+            <input id="e6" type="radio" name="plec" value="k" checked>
+            <label for="e7">mezczyzna</label>
+            <input id="e7" type="radio" name="plec" value="m">
+        </fieldset>
 
-        <input type="submit" name="wyslanie" value="Wyslij">
-        <textarea name="komentarz" cols="20" rows="10">
+        <label for="e8">komentarz</label>
+        <textarea id="e8" name="komentarz" cols="20" rows="10">
             Mój tekst komentarza
         </textarea>
-        <select name="dzieci" size="3" multiple>
+
+        <label for="e9">mezczyzna</label>
+        <select id="e9" name="dzieci" size="3" multiple>
             <option value="0">Brak</option>
             <option value="1do3">Od 1 do 3 włacznie</option>
             <option value="3do5">od 3 do 5</option>
@@ -72,12 +144,20 @@
             <option value="3do5">od 3 do 5</option>
             <option value="ponad5" selected>6 i wiecej</option>
         </select>
+
+        <label for="e10">samopoczucie</label>
+        <input id="e10" type="range" name="zasieg">
+
+        <!-- niwwidoczne nie zaburza rytmu rozmieszczania w gridzie-->
         <input type="hidden" name="tajne" value="bardzo tajna wartosc">
 
-        <input type="button" name="button1" value="Przycisk">
-        <input type="reset" name="reset" value="reset">
+        
+        <input class="poprawej" type="submit" name="wyslanie" value="Wyslij">
 
-        <input type="range" name="zasieg">
+        <input class="poprawej" type="button" name="button1" value="Przycisk">
+        <input class="poprawej" name="reset" value="reset">
+
+        
 
     </form>
 

@@ -23,6 +23,20 @@
 .forma {
     display: grid;
     grid-template-columns: [lewa] 100px [srodek] auto [prawa];
+    gap: 20px;
+}
+
+.kafle {
+    display: grid;
+    grid-template-columns: [lewa] 1fr [srodek] 1fr [prawa];
+    gap: 20px;
+    width: 100%;
+    grid-column: srodek-lewa / srodek-prawa;
+}
+
+.mini-kafle {
+    margin-top: 20px;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .menu {
@@ -61,6 +75,10 @@ fieldset {
     border: none;
     margin: 0;
     padding: 0;
+}
+
+.poprawej {
+    grid-column: srodek / prawa;
 }
 
 .kafel__dzial {
